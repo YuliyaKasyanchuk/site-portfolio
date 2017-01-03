@@ -1,0 +1,401 @@
+*::-webkit-input-placeholder {
+    color: #666;
+    opacity: 1;
+}
+
+*:-moz-placeholder {
+    color: #666;
+    opacity: 1;
+}
+
+*::-moz-placeholder {
+    color: #666;
+    opacity: 1;
+}
+
+*:-ms-input-placeholder {
+    color: #666;
+    opacity: 1;
+}
+
+body input:focus:required:invalid,
+body textarea:focus:required:invalid {}
+
+body input:required:valid,
+body textarea:required:valid {}
+
+html {
+    height: 100%;
+}
+
+body {
+    font-family: 'Montserrat Light', Arial, sans-serif;
+    font-size: 16px;
+    height: 100%;
+    width: 100%;
+    min-height: 100%;
+    cursor: default;
+}
+
+
+/* Header
+-----------------------------------------------------------------------------*/
+
+header {
+    width: 100%;
+    height: 90px;
+    border-bottom: 2px solid #929292;
+}
+
+header .logo_img {
+    float: left;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+header .logo_img a {
+    padding-right: 0;
+    margin-left: -20px;
+}
+
+.maian_mnu {
+    margin-bottom: 40px;
+}
+
+.maian_mnu a {
+    color: black;
+    display: block;
+    padding: 0 15px;
+    -webkit-transition: all .25s;
+    -o-transition: all .25s;
+    transition: all .25s;
+}
+
+.maian_mnu a:hover {
+    font-weight: bold;
+}
+
+.maian_mnu a:active {
+    font-weight: bold;
+}
+
+.maian_mnu .active-button {
+    font-weight: bold;
+}
+
+.maian_mnu ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    float: right;
+    margin-top: 30px;
+}
+
+.maian_mnu ul li {
+    display: inline-block;
+}
+
+.maian_mnu ul {
+    z-index: 12;
+}
+
+.main_mnu_button {
+    background-color: transparent;
+    border: medium none;
+    font-size: 26px;
+}
+
+.main_mnu_button {
+    color: black;
+    float: right;
+    padding: 30px 5px 0;
+}
+
+
+/*MODELS*/
+
+#owl-demo .item {
+    margin: 3px;
+}
+
+#owl-demo .item img {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.demo {
+    margin-bottom: 0px;
+    margin-top: 50px;
+}
+
+.next_button,
+.prev_button {
+    background-color: rgba(71, 71, 71, 0.7);
+    border-radius: 20px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 26px;
+    padding: 0 10px;
+    position: absolute;
+    top: 45%;
+    z-index: 10;
+}
+
+.next_button {
+    right: 80px;
+}
+
+.prev_button {
+    left: 10px;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+nav,
+section,
+summary {
+    display: block;
+}
+
+.wrapper {
+    margin: 0 auto;
+    min-height: 95%;
+    height: auto !important;
+    height: 100%;
+}
+
+.contacts {
+    margin-left: 66px;
+    display: inline-block;
+    vertical-align: top;
+    color: #000;
+}
+
+.contacts .ico {
+    margin-right: 20px;
+}
+
+.contacts h2 {
+    font-weight: bold;
+    font-family: 'Montserrat Light', Arial, sans-serif;
+    font-size: 26px;
+}
+
+.contacts a {
+    color: #000;
+    font-family: 'Montserrat Light', Arial, sans-serif;
+    font-family: 'Montserrat Light', Arial, sans-serif;
+    font-size: 18px;
+}
+
+.images .photos {
+    margin-left: 120px;
+}
+
+.images .first_block {
+    margin-bottom: 20px;
+    height: 400px;
+}
+
+.vertical_photo {
+    display: inline-block;
+    height: 400px;
+    width: auto;
+    overflow: hidden;
+    margin: 5px 0 5px 5px;
+    vertical-align: top;
+}
+
+.vertical_photo img {
+    height: 400px;
+    width: auto;
+    margin-top: 5px;
+}
+
+.horizontal_photo {
+    width: 700px;
+    height: 200px;
+    overflow: hidden;
+    display: inline-block;
+    vertical-align: top;
+    margin: 5px;
+}
+
+.horizontal_photo img {
+    height: auto;
+    width: 300px;
+    overflow: hidden;
+    display: inline-block;
+    vertical-align: top;
+    margin: 5px;
+}
+
+.long_photo {}
+
+.part2 {
+    width: 700px;
+    height: 500px;
+    display: inline-block;
+}
+
+.long_photo {
+    width: 700px;
+    height: 185px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    overflow: hidden;
+}
+
+.long_photo img {
+    width: 614px;
+    height: auto;
+}
+
+.second_block {
+    width: 1100px;
+    height: 400px;
+    margin-bottom: 45px;
+}
+
+.second_block .long_photo {
+    width: 590px;
+    height: 205px;
+    margin: 0px 5px 10px 5px;
+    overflow: hidden;
+    display: inline-block;
+}
+
+.second_block .long_photo img {
+    margin-bottom: 10px;
+    display: block;
+    margin-top: -50px;
+    height: 400px;
+}
+
+.second_block .long_photo img:last-child {
+    margin-bottom: 0px;
+}
+
+.second_block .vertical_photo {
+    margin-top: -226px;
+    vertical-align: top;
+    margin-left: 8px;
+    height: 432px;
+    width: auto;
+}
+
+.second_block .vertical_photo img {
+    height: 434px;
+    width: auto;
+}
+
+.third_block {
+    margin-top: -10px;
+    margin-bottom: 20px;
+}
+
+.third_block .vertical_photo img {
+    margin-right: 5px;
+    height: 434px;
+    width: auto;
+}
+
+
+/* Footer
+-----------------------------------------------------------------------------*/
+
+.footer {
+    margin: -50px auto 0;
+    height: 50px;
+    position: relative;
+    background-color: #000;
+    color: #d1d1d1;
+    padding: 10px;
+    margin-top: -2px;
+    width: 100%;
+    min-width: 250px;
+}
+
+content {
+    box-sizing: border-box;
+    min-height: 100%;
+    padding-bottom: 90px;
+}
+
+.auth_buttons {
+    background-color: transparent;
+    border: medium none;
+    font-size: 26px;
+    padding-top: 40px;
+    padding-left: 20px;
+    float: right;
+}
+
+fa {
+    font-size: inherit;
+}
+
+.user {
+    float: right;
+    margin: 0 auto;
+    color: #fff;
+}
+
+.footerMenu {
+    margin-top: -20px;
+    height: 40px;
+    padding-top: 10px;
+    width: 100%;
+    max-width: 1300px;
+    margin: -20px auto;
+}
+
+.footerMenu1 {
+    display: inline-block;
+    vertical-align: middle;
+    width: 49%;
+    -moz-box-sizing: border-box;
+    /* Для Firefox */
+    box-sizing: border-box;
+    padding-top: 10px;
+    height: 20px;
+    padding-left: 2%;
+}
+
+.footerMenu2 {
+    display: inline-block;
+    vertical-align: top;
+    width: 49%;
+    -moz-box-sizing: border-box;
+    /* Для Firefox */
+    box-sizing: border-box;
+    height: 20px;
+}
+
+.footerMenu .socialLinks {
+    margin: 0;
+    padding: 0;
+    float: right;
+    text-align: right;
+}
+
+.footerMenu2 .menuItem {
+    display: inline-block;
+    list-style-type: none;
+    vertical-align: top;
+    padding-top: 10px;
+}
+
+.footerMenu2 .menuItem a {
+    color: #fff;
+}
